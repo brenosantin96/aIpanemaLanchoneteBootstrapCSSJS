@@ -1,0 +1,363 @@
+html, body{
+    overflow: auto;
+}
+
+body{
+    padding-top: 60px;
+    overflow-x: hidden;
+}
+
+.navbar-nav li a {
+ line-height: 30px;
+ font-size: 17px;
+}
+
+.escrita-logo{
+    font-size: 20px;
+    font-family: 'museo300';
+    line-height: 50px;
+    color: #000000;
+
+}
+
+.navbar-default{
+    background-color: #ffffff;
+}
+
+.centralnav {
+    padding: 5px 5px 5px 5px;
+
+
+}
+
+h2{
+    font-family: museo300;
+}
+
+.palavra{
+   font-family: "museo300";
+}
+
+.navlinks{
+    text-align: right;
+    border: 1px solid white;
+    float: right;
+}
+
+.border-sinal{
+    border: 1px solid red;
+}
+
+
+.bg-banner{
+    width: 100%;
+    height: 100%;
+}
+
+.textotopo h3 {
+    font-size: 80px;
+    text-shadow: #595959 1px 1px;
+    font-family: 'sansprolight';
+    line-height: 2;
+}
+
+.textotoposobre {
+    text-align: center;
+    color: white;
+    font-family: 'sansprolight';
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: calc(50% - 120px);
+}
+
+.textotopo {
+    position: absolute;
+    margin: 0 auto;
+}
+
+.textotopo span {
+    text-shadow: #595959 1px 1px;
+    font-family: 'sansprolight';
+    font-size: 60px;
+    font-weight: initial !important;
+}
+
+/*LINKS HOVER */
+
+.navbar-header>a:link{ 
+    color: #000;  
+    text-decoration: none; 
+}
+
+.navbar-header>a:visited{ 
+    color: #000;   
+    text-decoration: none;
+}
+
+.navbar-header>a:hover{ 
+    color: #000;   
+    text-decoration: none;
+}
+
+.navbar-header>a:active{ 
+    color: 000;   
+    text-decoration: none;
+}
+
+#menucollapse > ul > li > a:link{
+    color: #000000;
+    text-decoration: none;
+}
+
+#menucollapse > ul > li > a:visited{
+    color: #000000;
+    text-decoration: none;
+}
+
+#menucollapse > ul > li > a:hover{
+    color: #ffffff;
+    background: #FFC524;
+    text-decoration: none;
+    transition: background 0.6s;
+}
+
+#menucollapse > ul > li > a:active{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Carrosel */
+.carousel img {
+    min-width: 100%;
+}
+
+.linkrodape:link{
+    color: #FFC524;
+ 
+}
+.linkrodape:visited{
+    color: #FFC524;
+ 
+}
+.linkrodape:hover{
+    color: #FFC524;
+ 
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 33px;
+    height: 3px;
+    margin: 4px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    
+    background-color: #ffffff;
+    
+}
+.carousel-indicators .active {
+    width: 33px;
+    height: 3px;
+    margin: 4px;
+    background-color: #FFC524;
+}
+
+/*FIM Carrosel */
+
+#servicos{
+    background: #FFC524;
+    padding-top: 10px;
+}
+
+#divisor{
+    border: 1px solid white;
+    lighting-color: currentColor;
+}
+
+#carrosel-borda{
+    border-top: solid 8px #FFC524;
+    border-bottom: solid 6px #000000;
+}
+
+.text-center{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: museo300;
+    padding: 5px 0 30px 0;
+}
+
+#conheca{
+    background: #ffffff;
+}
+
+#rodape{
+    background-color: black;
+}
+
+@keyframes slide-up{
+
+    from{ bottom: -50%; }
+    to {bottom: 0%;}
+
+
+}
+
+#slide-up{
+    animation-name: slide-up;
+    animation-duration: 1s;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    bottom: 0;
+    /*border: 1px solid  white;*/
+
+
+}
+
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    font-weight: bold;
+
+
+}
+
+.btn-amarelo{
+    background: #FFC524;
+}
+
+.btn-amarelo:hover{
+    background-color: #e1531c;
+    color: white;
+}
+
+#grad {
+  background: linear-gradient(to right, #FFC524 , #e1531c);
+}
+
+#grad2 {
+  background: #FFC524;
+  border-top: #e1531c;
+}
+
+
+.rodape-index{
+    background: #d2d0d7;
+}
+
+.rodape-index> .container>p{ 
+    font-size: 20px;
+    color: #000000;
+}
+
+.rodape-index> .container>p>a:link{ 
+    font-size: 15px;
+    color: #e1531c;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.rodape-index> .container>p>a:visited{ 
+    font-size: 15px;
+    color: #e1531c;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.rodape-index> .container>p>a:hover{ 
+    font-size: 15px;
+    color: #e1531c;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.img-valor{ 
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    line-height: 20px;
+}
+
+#img-first > .container {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered > h3{
+    font-size: 60px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: sansprolight;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.centered > span{
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: sansprolight;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.parag{
+    font-size: 22px;
+    font-weight: 400;
+    color: #e1531c;
+    font-family: museo300;
+}
+
+
+
+@media screen and (max-width: 767px){
+    
+    .img-custom{
+        position: relative;
+        float: left;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 767px){
+    
+    .only-mobile{
+        padding-top: 90px;
+    }
+
+    .centered > h3{
+    font-size: 30px;
+}
+
+.centered > span{
+    font-size: 20px;
+}
+
+}
+
+@media screen and (max-width: 767px){
+    
+    .navlinks{
+        float: none;
+        text-align: left;
+    }
+}
