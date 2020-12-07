@@ -1,4 +1,4 @@
-# aIpanemaLanchoneteBootstrapCSSJS
+# Site Institucional - Lanchonete Ipanema
 
 01-Projeto simples de site institucional, foi usado HTML,CSS,JS, Bootstrap.
 
