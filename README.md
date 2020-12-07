@@ -4,4 +4,4 @@
 
 02-Baixar projeto e visualizar index.html
 
-![img text](https://github.com/brenosantin96/musicFinderConsumindoAPI/blob/main/MusicFinder.png)
+![img text](https://github.com/brenosantin96/aIpanemaLanchoneteBootstrapCSSJS/blob/master/ezgif-3-5d6d5d388bfa.gif)
